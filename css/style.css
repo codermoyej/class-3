@@ -1,0 +1,133 @@
+/*------------------------------------------------------------------------------------
+Template Name: Personal Profile 
+Template URI: https://www.fiverr.com/codermoyej
+Description: Business & Corporate HTML5 Template
+Author: Moyej
+Author URI: https://www.fiverr.com/codermoyej
+Version: 1.01
+-------------------------------------------
+CSS INDEX
+=================== 
+1. Typography
+2. THEME DEFAULT CSS
+3. Header Area
+	3.1 Nav Menu Area
+	3.2 Welcome Text area
+	3.3 Social Link area
+4. Geting-started area
+5. Design Area
+6. Community Area
+7. Subscribe Area
+8. Download Area
+9. Footer Area
+	9.1 Footer Menu
+
+
+
+---------------------------------------------------------------------------------------*/
+
+
+/*============================
+  1. Typography
+==============================*/
+body, 
+p{
+	margin: 0;
+	font-size: 18px;
+	line-height: 1.3em;
+}
+
+/*============================
+  2. THEME DEFAULT CSS
+==============================*/
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	/*! text-decoration: underline; */
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	padding: 11px 0;
+	overflow: hidden;
+	display: block;
+}
+/*============================
+  3. Header Area
+==============================*/
+header{
+	background: #03135b;
+}
+.logo{
+	float: left;
+	width: 20%;
+}
+.logo img{
+	width: 98px;
+	height: auto;
+}
+nav{
+	width: 80%;
+	float: left;
+}
+nav ul{
+
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{
+
+	color: #ffffff;
+	list-style: none;
+}
+nav ul li a{
+
+	color: #ededed;
+	/*! list-style: none; */
+	font-size: 18px;
+	padding: 8px 40px;
+	/*! background: red; */
+	display: block;
+	text-transform: uppercase;
+	margin: 0 5px;
+}
+nav ul li a:hover{
+	
+	background: #04197a;
+	color: black;
+	border-radius: 5px;
+	color: #ffffff;
+	transition: ease .5s;
+}
+.banner{
+    background: #bfcfff;
+}
+.banner .container{
+    padding: 42px 50px;
+}
+.banner img{
+	/*! 20px 20px 20px 0 black */
+	box-shadow: 9px 0px 46px 0px #00000070;
+	border-radius: 5px;
+}
+.banner img{
+	/*! 20px 20px 20px 0 black */
+	box-shadow: -9px 0px -46px 0px #00000070;
+	transition: .4s;
+	/* display: block; */
+	overflow: inherit;
+}
